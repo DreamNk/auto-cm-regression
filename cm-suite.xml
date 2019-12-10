@@ -1,0 +1,44 @@
+<!--
+ Copyright (c) 2015 Global Healthcare Exchange, LLC. All rights reserved.
+-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CM Automation Suite" verbose="1" parallel="tests" thread-count="5">
+    
+     <test name="Windows 7, Chrome 59">
+        <parameter name="env" value="W7CR59" />
+        <groups>
+	        <run>
+	        	<include name="functional"/>
+	        </run>
+        </groups>
+        <classes>
+            <class name="com.ghx.auto.cm.regression.ui.scenario.Login_Test" />
+        </classes>
+    </test>
+    
+    <test name="Windows 7, Firefox 36">
+        <parameter name="env" value="W7FF36" />
+        <groups>
+	        <run>
+	        	<include name="functional"/>
+	        </run>
+        </groups>
+         <classes>
+            <class name="com.ghx.auto.cm.regression.ui.scenario.Login_Test" />
+        </classes>
+    </test> 
+    
+    <test name="Windows 7, Chrome 33">
+        <parameter name="env" value="W7CR33" />
+        <groups>
+	        <run>
+	        	<include name="functional"/>
+	        </run>
+        </groups>
+         <classes>
+            <class name="com.ghx.auto.cm.regression.ui.scenario.Login_Test" />
+        </classes>
+    </test> 
+    
+</suite>

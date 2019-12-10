@@ -1,0 +1,70 @@
+<!--
+ Copyright (c) 2015 Global Healthcare Exchange, LLC. All rights reserved.
+-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CM JS Automation Suite" verbose="1" thread-count="5">
+    
+   <!--   <test name="Windows 7, Firefox 36">
+        <parameter name="env" value="W7FF" />
+        <groups>
+	        <run>
+	        	<include name="functional"/>
+	        </run>
+        </groups>
+         <classes>
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.CPM_Login_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.CPM_Reset_Password_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.Kiosk_Forget_Password_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.Kiosk_Login_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.Kiosk_Reset_Password_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.NBD_Change_Password_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.NBD_Forgot_Password_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.NBD_Login_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.NBD_Reset_Password_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.NVD_Change_Login_Credentials_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.NVD_Forgot_Password_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.NVD_Reset_Password_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.NVD_Login_Test" />
+        
+        </classes>
+    </test> -->
+    
+    <!--   <test name="Windows 7, IE 9">
+        <parameter name="env" value="W7IE" />
+        <groups>
+	        <run>
+	        	<include name="functional"/>
+	        </run>
+        </groups>
+        <classes>
+          <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.Login_Tests" />
+        </classes>
+    </test> -->
+    
+   <test name="Windows 7, Chrome 33">
+        <parameter name="env" value="W7CR" />
+        <groups>
+	        <run>
+	        	<include name="functional"/>
+	        </run>
+        </groups>
+         <classes>
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.CPM_Login_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.CPM_Reset_Password_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.Kiosk_Forget_Password_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.Kiosk_Login_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.Kiosk_Reset_Password_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.NBD_Change_Password_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.NBD_Forgot_Password_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.NBD_Login_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.NBD_Reset_Password_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.NVD_Change_Login_Credentials_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.NVD_Forgot_Password_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.NVD_Reset_Password_Test" />
+            <class name="com.ghx.auto.cm.regression.ui.smoke.angularjs.NVD_Login_Test" />
+        
+        </classes>
+    </test>
+    
+</suite>

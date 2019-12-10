@@ -1,0 +1,6 @@
+#
+# Custom TestNG Listeners. 
+#
+com.ghx.auto.core.ui.listener.AutoUISuiteListener
+com.ghx.auto.core.ui.listener.AutoUITestListener
+com.ghx.auto.core.reporting.Reporter

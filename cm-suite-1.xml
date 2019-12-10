@@ -1,0 +1,15 @@
+<!-- Copyright (c) 2013 Global Healthcare Exchange, LLC. All rights reserved. -->
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CM Suite 1" verbose="1" thread-count="5">
+
+
+<parameter name="env" value="W7CR66"/>
+
+	<test name="CM NVD Tests (Firefox)">
+		<classes>  <class name="com.ghx.auto.cm.regression.ui.sso.TestClass_Test" />
+				   
+		</classes>
+	</test>	
+</suite>
